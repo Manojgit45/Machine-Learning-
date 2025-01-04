@@ -1,7 +1,7 @@
 FROM node:14
 
 # Set the working directory
-WORKDIR /usr/src/app
+WORKDIR /var/lib/jenkins/workspace/devops_project
 
 # Copy package.json and install dependencies
 COPY package*.json ./
